@@ -31,6 +31,7 @@
 		D617AB8316DF732A00FE9DD7 /* logo4.png in Resources */ = {isa = PBXBuildFile; fileRef = D617AB7C16DF732A00FE9DD7 /* logo4.png */; };
 		D617AB8416DF732A00FE9DD7 /* logo5.png in Resources */ = {isa = PBXBuildFile; fileRef = D617AB7D16DF732A00FE9DD7 /* logo5.png */; };
 		D617AB8516DF732A00FE9DD7 /* logo6.png in Resources */ = {isa = PBXBuildFile; fileRef = D617AB7E16DF732A00FE9DD7 /* logo6.png */; };
+		D63E351916E7DEAC0035AAAF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63E351816E7DEAC0035AAAF /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,8 @@
 		D617AB7C16DF732A00FE9DD7 /* logo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo4.png; sourceTree = "<group>"; };
 		D617AB7D16DF732A00FE9DD7 /* logo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo5.png; sourceTree = "<group>"; };
 		D617AB7E16DF732A00FE9DD7 /* logo6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo6.png; sourceTree = "<group>"; };
+		D63E351716E7DEAC0035AAAF /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		D63E351816E7DEAC0035AAAF /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,10 +120,12 @@
 				D617AACD16DF44EA00FE9DD7 /* AppDelegate.m */,
 				D617AB5B16DF59CE00FE9DD7 /* FirstViewController.h */,
 				D617AB5C16DF59CE00FE9DD7 /* FirstViewController.m */,
-				D617AB7316DF660A00FE9DD7 /* Photo.h */,
-				D617AB7416DF660A00FE9DD7 /* Photo.m */,
 				D617AB6D16DF639400FE9DD7 /* SecondViewController.h */,
 				D617AB6E16DF639500FE9DD7 /* SecondViewController.m */,
+				D617AB7316DF660A00FE9DD7 /* Photo.h */,
+				D617AB7416DF660A00FE9DD7 /* Photo.m */,
+				D63E351716E7DEAC0035AAAF /* ThirdViewController.h */,
+				D63E351816E7DEAC0035AAAF /* ThirdViewController.m */,
 				D617AAD516DF44EA00FE9DD7 /* MainStoryboard.storyboard */,
 				D617AB7016DF658D00FE9DD7 /* InfoViewController.h */,
 				D617AB7116DF658E00FE9DD7 /* InfoViewController.m */,
@@ -236,6 +241,7 @@
 				D617AB6F16DF639500FE9DD7 /* SecondViewController.m in Sources */,
 				D617AB7216DF658E00FE9DD7 /* InfoViewController.m in Sources */,
 				D617AB7516DF660A00FE9DD7 /* Photo.m in Sources */,
+				D63E351916E7DEAC0035AAAF /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +364,7 @@
 				D617AADF16DF44EA00FE9DD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

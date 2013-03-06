@@ -95,11 +95,12 @@
                     <connections>
                         <segue destination="ylK-AD-7l3" kind="relationship" relationship="viewControllers" id="dSB-R3-Kr5"/>
                         <segue destination="8vw-fR-33w" kind="relationship" relationship="viewControllers" id="Bug-uz-JHB"/>
+                        <segue destination="RTh-94-NLx" kind="relationship" relationship="viewControllers" id="as2-rm-Zon"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vPc-aa-C80" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1243" y="103"/>
+            <point key="canvasLocation" x="1277" y="97"/>
         </scene>
         <!--Second View Controller - Item-->
         <scene sceneID="d1P-yb-QAm">
@@ -133,6 +134,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hOc-gc-pu7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1731" y="480"/>
+        </scene>
+        <!--Third View Controller - Item-->
+        <scene sceneID="zNA-Dv-ab0">
+            <objects>
+                <viewController id="RTh-94-NLx" customClass="ThirdViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tHe-Qx-O9t">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Tgb-0S-9Gp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zSA-RL-Tbq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1761" y="1165"/>
         </scene>
         <!--Info View Controller-->
         <scene sceneID="psX-xy-cVx">
@@ -170,6 +186,26 @@
             <point key="canvasLocation" x="182" y="-143"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="FirstViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
+        </class>
+        <class className="InfoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/InfoViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SecondViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
+        </class>
+        <class className="ThirdViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ThirdViewController.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
